@@ -1,0 +1,18 @@
+{
+  "name": "purescript-halogen-tooltip",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.1",
+    "purescript-console": "^3.0.0",
+    "purescript-halogen": "^3.0.1",
+    "purescript-halogen-css": "^7.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}

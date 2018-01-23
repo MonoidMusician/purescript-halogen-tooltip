@@ -1,8 +1,1 @@
-A simple list reordering component, drag and drop style. Native Halogen, no JS
-was harmed in the making of this project.
-
-# Demo
-https://monoidmusician.github.io/purescript-halogen-zuruzuru/index.html
-
-# Build Demo
-```pulp browserify -m Halogen.Zuruzuru > docs/index.js```
+Higher-order Halogen components shouldn't be scary! This is basically a simple tooltip component that proxies input into and output out of a wrapped component, while also grabbing some input for itself (viz. what tooltip to render), and this component maintains the hover state internally, because that doesn't need to leak.
